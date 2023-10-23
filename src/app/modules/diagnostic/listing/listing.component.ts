@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { DocumentService } from '../../../services/documents.service';
 
 @Component({
   selector: 'app-listing',
@@ -9,14 +9,14 @@ import { HttpClient } from '@angular/common/http';
 export class ListingComponent implements OnInit {
   private _documentNames: Array<string>;
 
-  constructor(private http: HttpClient) {
+  constructor(private documentService: DocumentService) {
     this._documentNames = new Array<string>();
   }
 
   ngOnInit() {
-    this.http.get('assets/docs.json').subscribe((data: any) => {
-      this._documentNames = data.names;
-      console.table(this._documentNames);
+    this.documentService.getDocumentNames().subscribe(data => {
+      this._documentNames = data;
+      console.log(this._documentNames);
     });
   }
 
