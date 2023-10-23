@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
 @Component({
@@ -6,15 +6,17 @@ import { HttpClient } from '@angular/common/http';
   templateUrl: './listing.component.html',
   styleUrls: ['./listing.component.css']
 })
-export class ListingComponent {
+export class ListingComponent implements OnInit {
   private _documentNames: Array<string>;
 
-  constructor() {
+  constructor(private http: HttpClient) {
     this._documentNames = new Array<string>();
+  }
 
-    this.http.get('assets/docs.json').subscribe(data => {
-      this.docsData = data;
-      console.log(this._documentNames);
+  ngOnInit() {
+    this.http.get('assets/docs.json').subscribe((data: any) => {
+      this._documentNames = data.names;
+      console.table(this._documentNames);
     });
   }
 
