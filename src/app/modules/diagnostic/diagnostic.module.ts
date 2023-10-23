@@ -1,19 +1,18 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ListingComponent } from './listing/listing.component';
-import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
-
-
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
-    ListingComponent,
-    HeaderComponent,
-    FooterComponent
+    ListingComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    HttpClientModule
+  ],
+  exports:[
+    ListingComponent
   ]
 })
 export class DiagnosticModule { }

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-listing',
@@ -10,6 +11,11 @@ export class ListingComponent {
 
   constructor() {
     this._documentNames = new Array<string>();
+
+    this.http.get('assets/docs.json').subscribe(data => {
+      this.docsData = data;
+      console.log(this._documentNames);
+    });
   }
 
   get documentNames(): Array<string> {
