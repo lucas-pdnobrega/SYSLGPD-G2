@@ -1,7 +1,16 @@
-<mat-card>
-    <div class="option"  class="forDocumentos" *ngFor="let document of documentNames">
-        <img src="assets/img/file-icon.svg" alt="file-icon" />
-        <label>{{ document }}</label>
-        <input type="checkbox" id="Documento25" />
-    </div>
-</mat-card>
+<div class="option">
+  <mat-card
+    class="option"
+    class="forDocumentos"
+    *ngFor="let documentName of documentNames"
+  >
+    <img src="assets/img/file-icon.svg" alt="file-icon" />
+    <label>{{ documentName }}</label>
+    <input
+      (change)="addSelectedDocument(documentName)"
+      type="checkbox"
+      id="Documento25"
+    />
+  </mat-card>
+</div>
+<!-- <button mat-button (click)="onClick">Enviar</button> -->

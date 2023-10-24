@@ -6,21 +6,40 @@ import { DocumentService } from '../../../services/documents.service';
   templateUrl: './listing.component.html',
   styleUrls: ['./listing.component.css']
 })
+
 export class ListingComponent implements OnInit {
-  private _documentNames: Array<string>;
+  private _documentNames: string[];
+  private _selectedDocuments: string[];
+
 
   constructor(private documentService: DocumentService) {
-    this._documentNames = new Array<string>();
+    this._documentNames = [];
+    this._selectedDocuments = [];
   }
 
   ngOnInit() {
     this.documentService.getDocumentNames().subscribe(data => {
       this._documentNames = data;
-      console.log(this._documentNames);
     });
   }
 
-  get documentNames(): Array<string> {
+  get documentNames(): string[] {
     return this._documentNames;
+  }
+
+  localizarSelecionados(documentName: string): number{
+    return this._selectedDocuments.findIndex((name) => name === documentName);
+  }
+
+  addSelectedDocument(documentName: string){
+    if ((<HTMLInputElement>event?.target).checked)
+      this._selectedDocuments.push(documentName);
+    else {
+      let index = this.localizarSelecionados(documentName);
+      if (index >= 0) {
+        this._selectedDocuments.splice(index, 1);
+      }
+    }
+    console.log(this._selectedDocuments);
   }
 }
