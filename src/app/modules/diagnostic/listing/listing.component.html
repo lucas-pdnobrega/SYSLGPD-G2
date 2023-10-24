@@ -16,8 +16,13 @@
 <button *ngIf="!hasBeenSent" mat-button (click)="onClick()">Enviar</button>
 
 
-<div id="selected" *ngIf="hasBeenSent">
+<!-- <div id="selected" *ngIf="hasBeenSent">
   <mat-card *ngFor="let selected of selectedDocuments">
     <a [href]="documentFilePaths[selected]" download>{{ selected }}</a>
+  </mat-card>
+</div> -->
+<div id="selected" *ngIf="hasBeenSent">
+  <mat-card *ngFor="let selected of selectedDocuments">
+    <a (click)="baixar(selected)">{{ selected }}</a>
   </mat-card>
 </div>
