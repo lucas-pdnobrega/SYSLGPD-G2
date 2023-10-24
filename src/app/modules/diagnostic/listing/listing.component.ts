@@ -13,6 +13,7 @@ export class ListingComponent implements OnInit {
   private _selectedDocuments: string[];
   private _hasBeenSent: boolean
   private _documentFilePaths: any
+  private _companyName: string
 
 
   constructor(private documentService: DocumentService, private http: HttpClient) {
@@ -20,6 +21,7 @@ export class ListingComponent implements OnInit {
     this._selectedDocuments = [];
     this._hasBeenSent = false;
     this._documentFilePaths = []
+    this._companyName = 'IFPB'
   }
 
   ngOnInit() {
@@ -72,7 +74,7 @@ export class ListingComponent implements OnInit {
     const content: any = await this.http.get(this.documentService.getDocumentFilePath(documentName), { responseType: 'text' }).toPromise();
 
     // Realize a substituição no conteúdo do arquivo MD.
-    const modifiedContent = content.replace(/<Nome da Empresa>/g, 'KRAMER');
+    const modifiedContent = content.replace(/<Nome da Empresa>/g, this._companyName);
 
     // Crie um Blob com o conteúdo modificado.
     const blob = new Blob([modifiedContent], { type: 'text/markdown' });
