@@ -13,38 +13,38 @@
 
 **Status da última atualização:***Atualizado em junho de 2014* 
 # **1. Visão Geral** 
-A <Company Name> assume o compromisso de proteger seus empregados, parceiros, fornecedores e a própria companhia contra quaisquer ações ilícitas ou danosas por parte de indivíduos, consciente ou inconscientemente.  Quando <Company Name> aborda problemas de forma proativa e utiliza o julgamento de forma correta, isso ajudará a nos diferenciar dos concorrentes. 
+A <Nome da Empresa> assume o compromisso de proteger seus empregados, parceiros, fornecedores e a própria companhia contra quaisquer ações ilícitas ou danosas por parte de indivíduos, consciente ou inconscientemente.  Quando <Nome da Empresa> aborda problemas de forma proativa e utiliza o julgamento de forma correta, isso ajudará a nos diferenciar dos concorrentes. 
 
 
 
-<Company Name> não irá tolerar qualquer transgressão ou impropriedade a qualquer momento.  <Company name> tomará as providências necessárias e agirá rapidamente para corrigir o problema se o código de ética for violado.   
+<Nome da Empresa> não irá tolerar qualquer transgressão ou impropriedade a qualquer momento.  <Nome da Empresa> tomará as providências necessárias e agirá rapidamente para corrigir o problema se o código de ética for violado.   
 # **2. Propósito** 
-O propósito desta política é estabelecer uma cultura de abertura, confiança e enfatizar a expectativa de os funcionários e consumidores de serem tratados com práticas comerciais justas.  Esta política servirá para guiar o comportamento de negócios para garantir uma conduta ética. Ética efetiva é um esforço coletivo envolvendo a participação e apoio de cada funcionário da empresa <Company Name>.  Todos os empregados devem familiarizar-se com as orientações que seguirão esta introdução. 
+O propósito desta política é estabelecer uma cultura de abertura, confiança e enfatizar a expectativa de os funcionários e consumidores de serem tratados com práticas comerciais justas.  Esta política servirá para guiar o comportamento de negócios para garantir uma conduta ética. Ética efetiva é um esforço coletivo envolvendo a participação e apoio de cada funcionário da empresa <Nome da Empresa>.  Todos os empregados devem familiarizar-se com as orientações que seguirão esta introdução. 
 # **3. Escopo** 
-Essa política se aplica a funcionários, contratantes, consultores, temporários e outros trabalhadores da <Company Name>, incluindo os funcionários associados a terceiros. 
+Essa política se aplica a funcionários, contratantes, consultores, temporários e outros trabalhadores da <Nome da Empresa>, incluindo os funcionários associados a terceiros. 
 # **4. Política** 
 4\.1 Compromisso Executivo com Ética 
 
-4\.1.1 Os líderes seniores e os executivos dentro da <Company Name> devem estabelecer um exemplo de conduta exemplar em primeiro lugar.  Em qualquer prática empresarial, a honestidade e a integridade devem ser a principal prioridade para os executivos. 
+4\.1.1 Os líderes seniores e os executivos dentro da <Nome da Empresa> devem estabelecer um exemplo de conduta exemplar em primeiro lugar.  Em qualquer prática empresarial, a honestidade e a integridade devem ser a principal prioridade para os executivos. 
 
 4\.1.2 Os executivos devem ter uma política de porta aberta e receber sugestões e preocupações dos funcionários.  Isso permitirá que os funcionários se sintam confortáveis para discutir quaisquer problemas e alertarão os executivos para preocupações envolvendo a equipe de trabalho. 
 
-4\.1.3 Os executivos são obrigados a revelar quaisquer conflitos de interesse que possam surgir em relação às suas funções ou responsabilidades dentro da <Company Name>. 
+4\.1.3 Os executivos são obrigados a revelar quaisquer conflitos de interesse que possam surgir em relação às suas funções ou responsabilidades dentro da <Nome da Empresa>. 
 
 4\.2 Compromisso dos Empregados com a Ética 
 
-4\.2.1 <Company Name> Os funcionários devem tratar todos de forma justa, ter respeito mútuo, promover um ambiente de equipe amigável e evitar a intenção e o aparecimento de práticas não éticas ou comprometedoras. 
+4\.2.1 <Nome da Empresa> Os funcionários devem tratar todos de forma justa, ter respeito mútuo, promover um ambiente de equipe amigável e evitar a intenção e o aparecimento de práticas não éticas ou comprometedoras. 
 
 4\.2.2 Todo funcionário precisa dedicar esforço e inteligência para manter a preservação dos valores éticos. 
 
-4\.2.3 Os funcionários têm a responsabilidade de reportar qualquer conflito de interesses relacionado às suas funções dentro da <Company Name>. 
+4\.2.3 Os funcionários têm a responsabilidade de reportar qualquer conflito de interesses relacionado às suas funções dentro da <Nome da Empresa>. 
 
-4\.2.4 Os funcionários ajudarão <Company Name> a aumentar a satisfação dos clientes e dos fornecedores entregando produtos de qualidade e uma resposta oportuna a perguntas. 
+4\.2.4 Os funcionários ajudarão <Nome da Empresa> a aumentar a satisfação dos clientes e dos fornecedores entregando produtos de qualidade e uma resposta oportuna a perguntas. 
 
 4\.2.5 Os funcionários devem considerar as seguintes perguntas para si mesmos quando qualquer comportamento for questionável: 
 
 - O comportamento é legal? 
-- O comportamento é de acordo com todas as políticas apropriadas da empresa  <Company Name>? 
+- O comportamento é de acordo com todas as políticas apropriadas da empresa  <Nome da Empresa>? 
 - O comportamento refletirá nos valores e na cultura da empresa? 
 - O comportamento poderá afetar negativamente as partes fundamentais da companhia? 
 - Você se sentiria preocupado pessoalmente se o comportamento aparecesse em uma manchete de notícias? 
@@ -55,22 +55,22 @@ Essa política se aplica a funcionários, contratantes, consultores, temporário
 4\.3 Consciência da Empresa 
 
 1. Prover as condutas éticas nas comunicações interpessoais dos trabalhadores será recompensada. 
-1. <Company Name> irá promover um ambiente confiável e honesto para fortalecer a visão da ética empresarial. 
+1. <Nome da Empresa> irá promover um ambiente confiável e honesto para fortalecer a visão da ética empresarial. 
 
 4\.4 Manutenção de Práticas Éticas 
 
-1. <Company Name> enfatizará a relevância da integridade das mensagens, e essa abordagem começará no mais alto escalão da organização.  Todo diretor, gerentes e funcionário deve manter de forma consistente uma postura ética e apoiar comportamentos éticos. 
-1. Os funcionários da <Company Name> devem promover o diálogo aberto, expressar suas opiniões com honestidade e tratar todos com imparcialidade, sinceridade e objetividade.   
-1. <Company Name> deverá estabelecer um comitê de divulgação das melhores práticas no intuito de assegurar a distribuição do código ético a todos os funcionários e a possibilidade de abordar preocupações relacionadas ao código. 
+1. <Nome da Empresa> enfatizará a relevância da integridade das mensagens, e essa abordagem começará no mais alto escalão da organização.  Todo diretor, gerentes e funcionário deve manter de forma consistente uma postura ética e apoiar comportamentos éticos. 
+1. Os funcionários da <Nome da Empresa> devem promover o diálogo aberto, expressar suas opiniões com honestidade e tratar todos com imparcialidade, sinceridade e objetividade.   
+1. <Nome da Empresa> deverá estabelecer um comitê de divulgação das melhores práticas no intuito de assegurar a distribuição do código ético a todos os funcionários e a possibilidade de abordar preocupações relacionadas ao código. 
 1. Os funcionários são obrigados a retificar anualmente a sua conformidade com a Política de Ética.  
 
 4\.5 Comportamento Antiético 
 
-1. <Company Name> evitará a intenção e a aparência de práticas antiéticas ou comprometedoras em relacionamentos, ações e comunicações.   
-1. <Company Name> não irá tolerar assédios ou descriminações. 
+1. <Nome da Empresa> evitará a intenção e a aparência de práticas antiéticas ou comprometedoras em relacionamentos, ações e comunicações.   
+1. <Nome da Empresa> não irá tolerar assédios ou descriminações. 
 1. O uso não autorizado dos segredos comerciais da empresa, de ‘marketing’, operacional, pessoal, financeiro, de código-fonte e técnicas essenciais para o sucesso da organização, não será tolerado. 
-1. <Company Name> não irá tolerar ações impróprias em nenhum momento e irá agir de maneira ética e responsável conforme as leis. 
-1. Os funcionários da <Company Name> não usarão dos equipamentos ou das relações do trabalho para benefício próprio. 
+1. <Nome da Empresa> não irá tolerar ações impróprias em nenhum momento e irá agir de maneira ética e responsável conforme as leis. 
+1. Os funcionários da <Nome da Empresa> não usarão dos equipamentos ou das relações do trabalho para benefício próprio. 
 # **5. Conformidade com a Política** 
 5\.1 Medição de Conformidade 
 
