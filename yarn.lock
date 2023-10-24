@@ -128,7 +128,7 @@
   dependencies:
     "tslib" "^2.3.0"
 
-"@angular/cdk@^16.2.9", "@angular/cdk@16.2.9":
+"@angular/cdk@^16.2.9", "@angular/cdk@>=15.0.0", "@angular/cdk@16.2.9":
   "integrity" "sha512-TrLV68YpddUx3t2rs8W29CPk8YkgNGA8PKHwjB4Xvo1yaEH5XUnsw3MQCh42Ee7FKseaqzFgG85USZXAK0IB0A=="
   "resolved" "https://registry.npmjs.org/@angular/cdk/-/cdk-16.2.9.tgz"
   "version" "16.2.9"
@@ -161,7 +161,7 @@
     "symbol-observable" "4.0.0"
     "yargs" "17.7.2"
 
-"@angular/common@^16.0.0 || ^17.0.0", "@angular/common@^16.2.0", "@angular/common@16.2.10":
+"@angular/common@^16.0.0 || ^17.0.0", "@angular/common@^16.2.0", "@angular/common@>=15.0.2", "@angular/common@16.2.10":
   "integrity" "sha512-cLth66aboInNcWFjDBRmK30jC5KN10nKDDcv4U/r3TDTBpKOtnmTjNFFr7dmjfUmVhHFy/66piBMfpjZI93Rxg=="
   "resolved" "https://registry.npmjs.org/@angular/common/-/common-16.2.10.tgz"
   "version" "16.2.10"
@@ -189,10 +189,17 @@
   dependencies:
     "tslib" "^2.3.0"
 
-"@angular/core@^16.0.0 || ^17.0.0", "@angular/core@^16.2.0", "@angular/core@16.2.10":
+"@angular/core@^16.0.0 || ^17.0.0", "@angular/core@^16.2.0", "@angular/core@>=15.0.2", "@angular/core@16.2.10":
   "integrity" "sha512-0XTsPjNflFhOl2CfNEdGeDOklG2t+m/D3g10Y7hg9dBjC1dURUEqTmM4d6J7JNbBURrP+/iP7uLsn3WRSipGUw=="
   "resolved" "https://registry.npmjs.org/@angular/core/-/core-16.2.10.tgz"
   "version" "16.2.10"
+  dependencies:
+    "tslib" "^2.3.0"
+
+"@angular/flex-layout@^15.0.0-beta.42":
+  "integrity" "sha512-cTAPVMMxnyIFwpZwdq0PL5mdP9Qh+R8MB7ZBezVaN3Rz2fRrkagzKpLvPX3TFzepXrvHBdpKsU4b8u+NxEC/6g=="
+  "resolved" "https://registry.npmjs.org/@angular/flex-layout/-/flex-layout-15.0.0-beta.42.tgz"
+  "version" "15.0.0-beta.42"
   dependencies:
     "tslib" "^2.3.0"
 
@@ -264,7 +271,7 @@
   dependencies:
     "tslib" "^2.3.0"
 
-"@angular/platform-browser@^16.0.0 || ^17.0.0", "@angular/platform-browser@^16.2.0", "@angular/platform-browser@16.2.10":
+"@angular/platform-browser@^16.0.0 || ^17.0.0", "@angular/platform-browser@^16.2.0", "@angular/platform-browser@>=15.0.2", "@angular/platform-browser@16.2.10":
   "integrity" "sha512-TOZiK7ji550F8G39Ri255NnK1+2Xlr74RiElJdQct4TzfN0lqNf2KRDFFNwDohkP/78FUzcP4qBxs+Nf8M7OuQ=="
   "resolved" "https://registry.npmjs.org/@angular/platform-browser/-/platform-browser-16.2.10.tgz"
   "version" "16.2.10"
