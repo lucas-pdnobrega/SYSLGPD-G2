@@ -1,4 +1,4 @@
-<div class="option">
+<div class="option" *ngIf="!hasBeenSent">
   <mat-card
     class="option"
     class="forDocumentos"
@@ -13,4 +13,11 @@
     />
   </mat-card>
 </div>
-<!-- <button mat-button (click)="onClick">Enviar</button> -->
+<button *ngIf="!hasBeenSent" mat-button (click)="onClick()">Enviar</button>
+
+
+<div id="selected" *ngIf="hasBeenSent">
+  <mat-card *ngFor="let selected of selectedDocuments">
+    <a [href]="documentFilePaths[selected]" download>{{ selected }}</a>
+  </mat-card>
+</div>

@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { map } from 'rxjs/operators'; // Importe o operador 'map' do RxJS
+import { map } from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root'
@@ -13,5 +13,10 @@ export class DocumentService {
     return this.http.get<string[]>('assets/docs.json').pipe(
       map((data: any) => data.names)
     );
+  }
+
+  getDocumentFilePath(documentName: string): string {
+    // Construa o caminho do arquivo com base no nome do documento.
+    return `assets/docs/${documentName}/${documentName}.md`;
   }
 }
