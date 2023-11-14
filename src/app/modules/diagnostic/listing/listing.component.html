@@ -1,0 +1,35 @@
+<h5 style="font-size: 16px; color: #008000; text-align: center;" *ngIf="!hasBeenSent">Selecione os documentos que deseja gerar:</h5>
+
+<mat-grid-list cols="4" rowHeight="19rem" class="option" *ngIf="!hasBeenSent">
+  <mat-grid-tile class="option forDocumentos" *ngFor="let documentName of documentNames">
+    <mat-card class="selectorCards">
+      <mat-card-header>
+        <div mat-card-avatar class="header-icon"></div>
+        <mat-card-title>{{ documentName }}</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <mat-card-subtitle>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, voluptas ipsum at laudantium iure, voluptate nemo quo excepturi aspernatur voluptates.</mat-card-subtitle>
+      </mat-card-content>
+      <mat-card-actions>
+        <mat-checkbox (change)="addSelectedDocument(documentName)"></mat-checkbox>
+      </mat-card-actions>
+    </mat-card>
+  </mat-grid-tile>
+</mat-grid-list>
+
+<div class="button-container">
+  <button *ngIf="!hasBeenSent" mat-raised-button color="primary" (click)="onClick()">Enviar</button>
+</div>
+
+<div id="selected" *ngIf="hasBeenSent">
+  <mat-list class="centered-list">
+    <mat-list-item *ngFor="let selected of selectedDocuments">
+      <mat-card class="downloadCards" (click)="baixar(selected)">
+        <mat-card-header>
+          <div mat-card-avatar class="download-icon"></div>
+          <div mat-card-title>{{ selected }}</div>
+        </mat-card-header>
+      </mat-card>
+    </mat-list-item>
+  </mat-list>
+</div>

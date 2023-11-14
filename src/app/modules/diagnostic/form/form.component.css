@@ -1,0 +1,83 @@
+/* Estilos gerais */
+body {
+  background-color: #f2f2f2; /* Light background color */
+}
+
+main {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  max-width: 800px; /* Limit width for better readability */
+}
+
+h1 {
+  color: #333; /* Darker title color for better contrast */
+  text-align: center; /* Center align the title */
+}
+
+/* Estilos do formulário */
+form {
+  margin-top: 20px;
+}
+
+/* Estilize os rótulos e campos de entrada */
+label {
+  color: #555; /* Slightly darker label color */
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="file"] {
+  width: calc(100% - 22px); /* Adjusted width to accommodate padding and border */
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Estilize os botões e links */
+input[type="radio"],
+input[type="submit"] {
+  background-color: #4caf50; /* Green button color */
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+a {
+  text-decoration: none;
+  color: #008000;
+}
+
+/* Estilize a caixa de arquivo (input type="file") */
+input[type="file"] {
+  margin-top: 10px;
+}
+
+/* Estilize os títulos de seção (h2) */
+h2 {
+  color: #333;
+  margin-top: 30px;
+}
+
+/* Estilize os parágrafos (p) */
+p {
+  color: #555;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+  transform: translateY(2px); /* Adjust the vertical alignment */
+}

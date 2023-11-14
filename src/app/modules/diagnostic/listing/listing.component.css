@@ -1,0 +1,53 @@
+.forDocumentos img {
+  width: 30px;
+  height: 30px;
+}
+
+.header-icon {
+  background-image: url('../../../../assets/img/file-icon.svg');
+  background-size: cover;
+}
+
+.download-icon {
+  background-image: url('../../../../assets/img/download-icon.svg');
+  background-size: cover;
+}
+
+.selectorCards {
+  max-width: 16rem;
+}
+
+.centered-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px; /* Ajuste a margem conforme necessário */
+}
+
+button {
+  font-size: 14px;
+  color: white;
+  background-color: #983131 !important;
+  border: 0px;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100px;
+}
+
+label {
+  margin: 5px;
+  text-align: center;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 14px;
+}
